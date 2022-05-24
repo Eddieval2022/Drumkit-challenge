@@ -1,0 +1,39 @@
+body {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: grey;
+  color: darkblue;
+  text-align: center;
+}
+header {
+  margin: 0px;
+  height: 100px;
+  background-color: #022b3a;
+}
+h1 {
+  color: aqua;
+  margin: 0;
+  padding-top: 30px;
+}
+
+h2 {
+  padding: 150px;
+}
+
+.event {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  font-weight: bold;
+  background-color: aqua;
+  line-height: 40px;
+  border-radius: 25px;
+  width: 7%;
+  margin: 30px;
+}
+
+.hidden {
+  display: none;
+}
