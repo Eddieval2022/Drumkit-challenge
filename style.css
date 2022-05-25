@@ -36,7 +36,8 @@ h2 {
   margin: 30px;
 }
 @media all and (max-width: 500px) {
-  .event {
-    width: 50%;
+  body {
+    font-size: 10px;
   }
+  .event{flex-wrap: wrap;}
 }
