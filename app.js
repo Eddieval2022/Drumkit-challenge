@@ -20,7 +20,6 @@ const tomClick = document.getElementById("tom1");
 
 window.addEventListener("keydown", (e) => {
   if (e.key == "a") {
-    boomClick.style.transform = scale(1.5);
     boom.play();
     boom.currentTime = 0;
   } else if (e.key == "f") {
